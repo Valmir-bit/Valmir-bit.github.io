@@ -2,6 +2,7 @@
 	font-family: Cormorant; 
 	src: url('fonts/CormorantSC-Bold.ttf'); 
 } 
+@media (min-width:1000px) {
 .thumbs-block {
     position:relative; 
     overflow: hidden;
@@ -23,7 +24,7 @@
     background-attachment: fixed;
     background-size: cover;
 */}
-.main_box {
+.scroll1 {
   margin-bottom: 20px;
   margin-top: 10px;
   margin-left: 10px;
@@ -38,34 +39,34 @@
   display:inline-block;
   vertical-align:middle;
 }
-#title{
+.title{
 	font-family: Cormorant;
 	color: #4c3f77 ;
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
-	width: 41%;
+	width: 50%;
 	height: auto;
-	
+    position: inherit;
 }
 #contact{
-	box-sizing: 30px 20px;
+	box-sizing: border-box;
 	text-align: right;
-	width: 406px;
+	width: 150px;
 	height: 50px;
 	font-style: italic;
 	font-weight: bold;
 	font-size: 17px;
 	display:inline-block;
 	vertical-align:super;
-	position: absolute;
 	top: 20px;
-	padding-left: 1%
+	position: absolute;
+    right: 6%;
 }
 .category {
 	display:inline-block;
 	vertical-align:baseline;
 	margin: 10px 10px 10px 10px;
-	padding-left: 40px;
+	padding-left: 2%;
 	font-family: Cormorant;
 	font-size: 25px;
 	font-style: italic;
@@ -74,6 +75,35 @@
 }
 .category:hover{
 	color: magenta;
+}
+#subtitle{
+	font-size: 20px;
+	color: black;
+    display: inline-block;
+	line-height: 35px; 
+	font-family: times new roman;	
+	}
+#scroll1jpg{
+	float: right;
+    position: inherit;
+	display: block;
+	margin-right: 3%;
+}
+	#title1{
+		display: inline-block;
+	}
+	.asd{
+		border:1px; 
+		border-color: white;
+	}
+	
+		
+	
+	
+	
+	
+	
+	
 }
 
 
